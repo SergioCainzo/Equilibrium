@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 html {
-    background-image: linear-gradient(to left, white,green,blue,orange,red);
+    background-image: linear-gradient(to right, white,green,blue,orange,red);
 }
 
 .imagem_equilibrium {
@@ -81,7 +81,8 @@ html {
     width: auto;
     margin-left: 30px;
     margin-right: 30px;
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 /* Container Criador */
@@ -97,6 +98,9 @@ html {
     margin-left: 20px;
 }
 
+
+/* Criador do produto */
+
 .imagem_jules {
     width: 50px;
     border: 1px solid white;
@@ -107,4 +111,11 @@ html {
     color: white;
     text-decoration: none;
     margin-left: 5px;
+}
+
+/* Efeitos dos elementos */
+.referencia:hover,.titulo:hover {
+    color: hsl(178, 100%, 50%); 
+    cursor: pointer;
+    font-weight: bolder;
 }
